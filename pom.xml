@@ -34,8 +34,6 @@
         <dubbo.version>3.1.7</dubbo.version>
         <curator.version>5.3.0</curator.version> <!--默认引入5.1.0-->
         <zookeeper.version>3.6.4</zookeeper.version> <!--默认引入3.7.0-->
-
-        <logging.version>1.2</logging.version>
     </properties>
 
     <dependencyManagement>
