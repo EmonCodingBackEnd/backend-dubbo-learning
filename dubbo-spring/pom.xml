@@ -113,6 +113,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-logging</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- ==================================================华丽的分割线================================================== -->
 
         <dependency>
             <groupId>org.apache.dubbo</groupId>
@@ -146,19 +153,6 @@
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
-        </dependency>
-
-        <!--用于JVM上启动测试框架的基础服务，提供命令行，IDE和构建工具等方式执行测试的支持。-->
-        <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-launcher</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <!--包含 JUnit 5 新的编程模型和扩展模型，主要就是用于编写测试代码和扩展代码。-->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <scope>test</scope>
         </dependency>
         <!-- 定义三方包 end -->
 
